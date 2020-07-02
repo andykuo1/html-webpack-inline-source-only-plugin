@@ -1,0 +1,31 @@
+{
+  "name": "html-webpack-inline-source-only-plugin",
+  "version": "1.0.0",
+  "description": "Allow scripts and styles to be inlined for HtmlWebpackPlugin through templates.",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andykuo1/html-webpack-inline-source-only-plugin.git"
+  },
+  "keywords": [
+    "html-webpack-plugin",
+    "webpack",
+    "inline",
+    "template"
+  ],
+  "author": "Andrew Kuo",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.9"
+  },
+  "peerDependencies": {
+    "html-webpack-plugin": "^2.0.0 || ^3.0.0 || ^4.0.0",
+    "webpack": "^1.0.0 || ^2.0.0 || ^3.0.0 || ^4.0.0"
+  }
+}
